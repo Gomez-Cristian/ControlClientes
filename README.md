@@ -1,10 +1,11 @@
 # ControlClientes
-Codigo para agregar y controlar clientes
+Codigo para agregar y controlar clientes.
 
-Documentación general de la aplicación móvil para el control de clientes. 
+Documentación general.
+
 La aplicación utiliza Firebase para gestionar los datos de los clientes y las direcciones asociadas. 
 
-Detalles principales, funciones y características de la aplicación.
+Detalles principales, funciones y características de la aplicación:
 
 Funciones Principales
 1. Agregar Clientes
@@ -36,7 +37,8 @@ En la sección de "Clientes Registrados", encuentra la opción de búsqueda, ubi
 Ingresa el nombre o la cédula del cliente que deseas encontrar, dependiendo de la opción que tengas seleccionada.
 La aplicación mostrará automáticamente los resultados coincidentes, lo que facilita la búsqueda de clientes específicos.
 
-Integración con Firebase
+Integración con Firebase.
+
 La aplicación utiliza Firebase para almacenar y gestionar los datos de los clientes y sus direcciones. 
 Esto proporciona una experiencia segura y escalable de almacenamiento en la nube y facilita la sincronización de datos entre dispositivos.
 
