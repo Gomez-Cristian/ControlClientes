@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "356020544663",
+    "project_id": "control-clientes-1c98c",
+    "storage_bucket": "control-clientes-1c98c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356020544663:android:b8de8750e45b073e6e75d2",
+        "android_client_info": {
+          "package_name": "com.wave_power_systems.controldeclientes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356020544663-ls8t4fh5kkv3h1npkvi1091m5c8cifs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ9mFqhMkvvx1uTt3aR-DyeQ9ieBmNWiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356020544663-ls8t4fh5kkv3h1npkvi1091m5c8cifs9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

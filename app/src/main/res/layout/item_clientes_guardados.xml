@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoBancaImageView"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_cliente"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombreClienteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Nombre"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/celularClienteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celular:"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/cedulaClienteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Cédula:"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/correoClienteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Correo:"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/direccionPrincipalClienteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Correo:"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/direccionSecundariaClienteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Correo:"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="14dp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

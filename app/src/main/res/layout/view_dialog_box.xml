@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDiaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Título"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#2E9AFE" />
+
+    <TextView
+        android:id="@+id/txtDiaMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text="Descripción"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnCancel"
+            android:backgroundTint="@color/colorBlue"
+            android:textColor="@color/white"
+            app:cornerRadius="16dp"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:backgroundTint="@color/colorBlue"
+            app:cornerRadius="16dp"
+            android:textColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Aceptar"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

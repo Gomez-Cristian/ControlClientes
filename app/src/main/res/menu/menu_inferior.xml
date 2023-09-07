@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_menu_home"
+        android:icon="@drawable/ic_add_client"
+        android:title="Clientes" />
+
+    <item
+        android:id="@+id/item_menu_vista_clientes"
+        android:icon="@drawable/ic_list_client"
+        android:title="Registros" />
+</menu>
